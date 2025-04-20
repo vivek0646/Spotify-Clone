@@ -35,6 +35,8 @@ masterPlay.addEventListener('click', ()=>{
         audioElement.play();
         masterPlay.classList.remove('fa-play-circle');
         masterPlay.classList.add('fa-pause-circle');
+        masterPlay.classList.add('fa-next-rightarrow');
+        masterPlay.classList.add('fa-previous-leftarrow');
         gif.style.opacity = 1;
     }
     else{
@@ -59,6 +61,8 @@ const makeAllPlays = ()=>{
     Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
         element.classList.remove('fa-pause-circle');
         element.classList.add('fa-play-circle');
+        element.classList.add('fa-next-rightarrow');
+        element.classList.add('fa-previous-leftarrow');
     })
 }
 
@@ -79,7 +83,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
 })
 
 document.getElementById('next').addEventListener('click', ()=>{
-    if(songIndex>=9){
+    if(songIndex>=8){
         songIndex = 0
     }
     else{
