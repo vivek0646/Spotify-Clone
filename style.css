@@ -14,10 +14,10 @@ nav{
 }
 
 nav ul{
-    display: flex;
+    display: center;
     align-items: center;
     list-style-type: none;
-    height: 65px;
+    height: 85px;
     background-color: black;
     color: white;
 }
@@ -38,7 +38,7 @@ nav ul li{
 }
 
 .container{
-    min-height: 72vh;
+    min-height: 82vh;
     background-color: black;
     color: white;
    font-family: 'Varela Round', sans-serif;
