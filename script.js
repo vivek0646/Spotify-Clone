@@ -21,6 +21,7 @@ let songs = [
     {songName: "Bhula Dena - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
     {songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
     {songName: "Na Jaana - Salam-e-Ishq", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+     {songName: "Paro - Aditya Rikhari", filePath: "songs/4.mp3", coverPath: "covers/11.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
@@ -37,12 +38,14 @@ masterPlay.addEventListener('click', ()=>{
         masterPlay.classList.add('fa-pause-circle');
         masterPlay.classList.add('fa-next-rightarrow');
         masterPlay.classList.add('fa-previous-leftarrow');
+        masterPlay.classList.add('fa-menu-top3arrow');
         gif.style.opacity = 1;
     }
     else{
         audioElement.pause();
         masterPlay.classList.remove('fa-pause-circle');
         masterPlay.classList.add('fa-play-circle');
+        masterPlay.classList.add('fa-menu-top3arrow');
         gif.style.opacity = 0;
     }
 })
@@ -63,6 +66,7 @@ const makeAllPlays = ()=>{
         element.classList.add('fa-play-circle');
         element.classList.add('fa-next-rightarrow');
         element.classList.add('fa-previous-leftarrow');
+        element.classList.add('fa-menu-top3arrow');
     })
 }
 
