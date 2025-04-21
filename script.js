@@ -8,6 +8,13 @@ let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
 let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
+  const button = document.getElementById('myButton');
+
+  button.addEventListener('click', function() {
+    document.getElementById('message').textContent = "You clicked the button!";
+   
+</script>
+
 
 let songs = [
     {songName: "Warriyo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
