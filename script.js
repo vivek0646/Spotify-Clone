@@ -125,4 +125,6 @@ document.getElementById('previous').addEventListener('click', ()=>{
     audioElement.play();
     masterPlay.classList.remove('fa-play-circle');
     masterPlay.classList.add('fa-pause-circle');
+    masterPlay.classList.add('fa-next-rightarrow');
+    masterPlay.classList.add('fa-previous-leftarrow');
 })
