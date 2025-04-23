@@ -46,6 +46,8 @@ masterPlay.addEventListener('click', ()=>{
         masterPlay.classList.add('fa-next-rightarrow');
         masterPlay.classList.add('fa-previous-leftarrow');
         masterPlay.classList.add('fa-menu-top3arrow');
+        masterPlay.classList.add('fa-menu-top4arrow');
+        masterPlay.classList.add('fa-menu-top6arrow');
         gif.style.opacity = 1;
     }
     else{
@@ -53,6 +55,7 @@ masterPlay.addEventListener('click', ()=>{
         masterPlay.classList.remove('fa-pause-circle');
         masterPlay.classList.add('fa-play-circle');
         masterPlay.classList.add('fa-menu-top3arrow');
+        masterPlay.classList.add('fa-menu-top7arrow');
         gif.style.opacity = 0;
     }
 })
