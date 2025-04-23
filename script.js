@@ -93,6 +93,8 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
         gif.style.opacity = 1;
         masterPlay.classList.remove('fa-play-circle');
         masterPlay.classList.add('fa-pause-circle');
+        maaterPlay.classList.add('fa-next-rightarrow');
+        maaterPlay.classList.add('fa-previous-leftarrow');
     })
 })
 
@@ -109,12 +111,14 @@ document.getElementById('next').addEventListener('click', ()=>{
     audioElement.play();
     masterPlay.classList.remove('fa-play-circle');
     masterPlay.classList.add('fa-pause-circle');
+    maaterPlay.classList.add('fa-next-rightarrow');
+    maaterPlay.classList.add('fa-previous-leftarrow');
 
 })
 
 document.getElementById('previous').addEventListener('click', ()=>{
     if(songIndex<=0){
-        songIndex = 0
+        songIndex = 0;
     }
     else{
         songIndex -= 1;
