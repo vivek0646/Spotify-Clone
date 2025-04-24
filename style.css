@@ -3,7 +3,7 @@
 body{
     background-color: rgb(5, 15, 86);
 }
-//this was the margin and padding
+/*this was the margin and padding*/
 *{
     margin: 0;
     padding: 0;
@@ -52,6 +52,8 @@ nav ul li{
 
 .bottom{
     position: sticky;
+    margin: 0;
+    /*nirmal */
     bottom: 0;
     height: 130px;
     background-color: white;
