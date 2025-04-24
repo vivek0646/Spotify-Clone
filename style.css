@@ -38,7 +38,7 @@ nav ul li{
 }
 
 .container{
-    min-height: 84vh;
+    min-height: 84px;
     background-color: blue;
     color: white;
    font-family: 'Varela Round', sans-serif;
