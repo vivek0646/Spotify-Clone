@@ -34,7 +34,7 @@ let songs = [
 ]
 
 songItems.forEach((element, i)=>{ 
-    element.getElementsByTagName("img")[0].src = songs[i].coverPath; 
+     element.getElementsByTagName("img")[0].src = songs[i].coverPath; 
     element.getElementsByClassName("songName")[0].innerText = songs[i].songName; 
 })
  
@@ -64,8 +64,8 @@ masterPlay.addEventListener('click', ()=>{
 // Listen to Events
 audioElement.addEventListener('timeupdate', ()=>{ 
     // Update Seekbar
-    progress = parseInt((audioElement.currentTime/audioElement.duration)* 100); 
-    myProgressBar.value = progress;
+     progress = parseInt((audioElement.currentTime/audioElement.duration)* 100); 
+     myProgressBar.value = progress;
 })
 
 myProgressBar.addEventListener('change', ()=>{
