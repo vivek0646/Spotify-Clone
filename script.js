@@ -8,7 +8,7 @@ let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
 let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
-  const button = document.getElementById('myButton');
+const button = document.getElementById('myButton');
 
   button.addEventListener('click', function() {
     document.getElementById('message').textContent = "You clicked the button!";
@@ -57,7 +57,8 @@ masterPlay.addEventListener('click', ()=>{
         masterPlay.classList.remove('fa-pause-circle');
         masterPlay.classList.add('fa-play-circle');
         masterPlay.classList.add('fa-menu-top3arrow');
-        masterPlay.classList.add('fa-menu-top7arrow');
+        masterPlay.classList.add('fa-menu-top8arrow');
+        masterPlay.classList.add('fa-menu-top6arrow');
         gif.style.opacity = 0;
     }
 })
