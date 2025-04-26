@@ -6,7 +6,7 @@ body{
 /*this was the margin and padding*/
 *{
     margin: 0;
-    padding: 1;
+    padding: 0;
 }
 
 nav{
