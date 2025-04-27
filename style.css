@@ -43,7 +43,7 @@ nav ul li{
     color: white;
    font-family: 'Varela Round', sans-serif;
    display: flex;
-   margin: 27px auto;
+   margin: 25px auto;
    width: 60%;
    border-radius: 13px;
    padding: 34px;
@@ -55,7 +55,7 @@ nav ul li{
     margin: 0;
     /*nirmal */
     bottom: 0;
-    height: 130px;
+    height: 131px;
     background-color: white;
     color: black;
     display: flex;
