@@ -50,6 +50,7 @@ masterPlay.addEventListener('click', ()=>{
         masterPlay.classList.add('fa-menu-top3arrow');
         masterPlay.classList.add('fa-menu-top4arrow');
         masterPlay.classList.add('fa-menu-top6arrow');
+        masterPlay.classList.add('fa-menu-top7arrow');
         gif.style.opacity = 1;
     }
     else{
@@ -59,6 +60,7 @@ masterPlay.addEventListener('click', ()=>{
         masterPlay.classList.add('fa-menu-top3arrow');
         masterPlay.classList.add('fa-menu-top8arrow');
         masterPlay.classList.add('fa-menu-top6arrow');
+        masterPlay.classList.add('fa-menu-top7arrow');
         gif.style.opacity = 0;
     }
 })
