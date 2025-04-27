@@ -118,7 +118,7 @@ nav ul li{
     transition: opacity 0.4s ease-in;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1101px) {
     body {
       background-color: rgb(0, 153, 51);
     }
