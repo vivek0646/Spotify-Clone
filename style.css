@@ -169,7 +169,7 @@ header .master_play .wave .wave1{
 }
 header .master_play .wave .wave1:nth-child(2){
     height: 13px;
-    /* animation-delay: .4s; */
+    
 }
 header .master_play .wave .wave1:nth-child(3){
     height: 8px;
