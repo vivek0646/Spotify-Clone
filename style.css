@@ -175,7 +175,7 @@ header .master_play .wave .wave1:nth-child(3){
     height: 8px;
     
 }
-/* javascript class wave  */
+
 header .master_play .active2 .wave1{
     animation: wave .5s linear infinite;
 }
