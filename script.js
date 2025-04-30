@@ -1,6 +1,6 @@
 const music = new Audio('vande.mp3');
 
-// create Array 
+
 
 const songs = [
     {
