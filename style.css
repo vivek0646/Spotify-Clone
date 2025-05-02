@@ -30,7 +30,7 @@ header .menu_side, .song_side {
     width: 25%;
     height: 90%;
     
-    background-color: #111727;
+    background-color: #111727; 
     box-shadow: 5px 0px 2px #090f1f;
     color: #fff;
 }
