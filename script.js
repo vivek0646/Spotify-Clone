@@ -7,7 +7,7 @@ const songs = [
         id:'1',
         songName:` On My Way <br>
         <div class="subtitle">Alan Walker</div>`,
-        poster: "img/1.jpg"
+        poster: "img/1.jpg " 
     },
     {
         id:'2',
