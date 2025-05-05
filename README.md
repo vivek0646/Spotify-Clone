@@ -10,8 +10,8 @@ Through this project, I refined my ability to create dynamic web applications an
 
 Features:-
 ▶️ Play / Pause Functionality                                                                                                                                                                        
-⏭️ Next / ⏮️ Previous Controls
-🎵 Song Selection from List
-⏳ Progress Bar Sync
-🔁 Auto-Play Next Track
-🔊 Volume & Mute Control
+⏭️ Next / ⏮️ Previous Controls                                                                                                  
+🎵 Song Selection from List                                                                                           
+⏳ Progress Bar Sync                                                                                                   
+🔁 Auto-Play Next Track                                                                                                                
+🔊 Volume & Mute Control                                                                                                                             
