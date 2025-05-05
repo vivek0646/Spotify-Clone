@@ -8,3 +8,10 @@ Key features include:
 
 Through this project, I refined my ability to create dynamic web applications and gained hands-on experience with front-end technologies.
 
+Features:-
+▶️ Play / Pause Functionality
+⏭️ Next / ⏮️ Previous Controls
+🎵 Song Selection from List
+⏳ Progress Bar Sync
+🔁 Auto-Play Next Track
+🔊 Volume & Mute Control
